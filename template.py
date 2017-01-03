@@ -1,6 +1,9 @@
 #!/bin/python
 
 from flask import Flask
+
+# import flask render for html templates
+
 from flask import render_template
 
 app = Flask(__name__)
