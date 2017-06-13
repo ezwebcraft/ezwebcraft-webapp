@@ -3,22 +3,29 @@
 
 <head>
      <meta charset="UTF-8">
-     <title>TITLE</title>
+     <title>EZ-WebCraft</title>
      <meta name="description" content="DESCRIPTION">
+     <!-- need to load TweenMax framework for effec -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
     <link rel="stylesheet" href="css/ezwebcraft.css">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
      <!--[if lt IE 9]>
        <script src = "http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
      <![endif]-->
  </head>
 
  <body>
-   <header>
-     <h1>ezwebcraft</h1>
-   </header>
-   <aside id="side-panel">
-       <div id="self"><img id="self-text" src="img/profile.png"></div>
-       <nav>
+
+   <aside class="container" id="side-panel">
+       <div class="container-fluid" id="self"><img class="img-circle" id="self-text" src="img/profile.png"></div>
+       <nav class="row">
            <ul>
                <li class="link"><a href="#">About Me</a></li>
                <li class="link"><a href="#">Skill</a></li>
@@ -27,7 +34,9 @@
            </ul>
        </nav>
    </aside>
-
+   <header>
+     <h1>ezwebcraft</h1>
+   </header>
    <article>
      <h1>about me</h1>
      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam condimentum interdum urna id ultrices. Integer eros ex, molestie vitae orci vitae, rhoncus placerat nunc. Phasellus aliquet purus nunc, ut ullamcorper diam hendrerit sed. Pellentesque eget ullamcorper massa. Nulla vel rhoncus turpis. Fusce rutrum, est mattis ullamcorper pretium, ipsum lectus efficitur mauris, nec pharetra tortor est eget magna. Integer et massa non massa cursus suscipit. Suspendisse scelerisque ipsum nibh, et semper tellus vehicula ut.
@@ -45,7 +54,7 @@
 
 
    <footer>ezwebcraft</footer>
-
+<script src="js/effect.js"></script>
  </body>
 
  </html>
