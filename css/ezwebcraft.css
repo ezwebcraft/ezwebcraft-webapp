@@ -39,6 +39,18 @@ ul {
     padding: 0;
     text-align: right;
 }
+.link {
+    position: relative;
+}
+li {
+    padding: 10px 0 5px 0;
+    border-bottom: 1px solid #14f946;
+}
+
+li a {
+    text-decoration: none;
+    color: #14f946;
+}
 main {
     float: left;
     margin: 245px 0 0 150px;
