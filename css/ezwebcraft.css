@@ -1,7 +1,7 @@
 body {
     width: 100%;
     height: 100%;
-
+    background: url(../img/dark5.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -9,21 +9,27 @@ body {
     font-family: Helvetica, Arial, sans-serif;
     overflow-x: hidden;
 }
-aside {
+#side-panel {
     padding: 40px 0 0 40px;
     width: 135px;
     float: left;
-    height: 100%;
+
 }
 
 
-img {
+#self {
+    position: relative;
+    width: 135px;
+    height: 135px;
+    background: #eddaeb;
+}
+
+#self img {
     position: relative;
     display: block;
     margin: 0 auto;
     padding-top: 38px;
 }
-
 nav {
     margin-top: 150px;
 }
