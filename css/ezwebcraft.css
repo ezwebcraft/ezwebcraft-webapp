@@ -19,15 +19,15 @@
 
 #self {
     position: relative;
-    width: 180px;
-    height: 180px;
+    width: 165px;
+    height: 165px;
     background: #eddaeb;
 }
 
 #self img {
     /*position: relative;*/
-    /*display: block;*/
-    margin: 0 auto;
+    display: block;
+    margin: auto;
 
 }
 /*nav {
@@ -42,7 +42,7 @@ ul {
 .link {
     position: relative;
 }
-li {
+/*li {
     padding: 10px 0 5px 0;
     border-bottom: 1px solid #14f946;
 }
@@ -50,7 +50,7 @@ li {
 li a {
     text-decoration: none;
     color: #14f946;
-}
+}*/
 /*main {
     float: left;
     margin: 245px 0 0 150px;
