@@ -2,7 +2,7 @@ TweenMax.from("#self", 1, {
     opacity: 0,
     rotation: 360,
     scale: 0,
-    left: -200,
+    left: -1040,
     ease: Back.easeOut
 });
 TweenMax.to("#self", 1, {

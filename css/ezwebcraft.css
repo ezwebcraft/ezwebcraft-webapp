@@ -1,21 +1,16 @@
 #self {
     position: relative;
-    width: 175px;
-    height: 175px;
+    width: 150px;
+    height: 150px;
     background: #eddaeb;
 }
 
 #self img {
-    /*position: relative;*/
 
     display: block;
 
-    /*margin: auto;*/
-
 }
-/*nav {
-    margin-top: 150px;
-}*/
+
 .sidenav-link {
     list-style-type: none;
     margin: 0;
@@ -32,7 +27,9 @@
 }
 
 /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-.row.content {height: 450px}
+.row.content {
+  height: 100%;
+}
 
 /* Set gray background color and 100% height */
 .sidenav {
