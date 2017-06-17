@@ -13,3 +13,9 @@ TweenMax.from("#self-text", 1, {
     opacity: 0,
     delay: 1.2
 });
+
+$(".bar").each(function(){
+  $(this).find(".bar-inner").animate({
+    width: $(this).attr("data-width")
+  },2000)
+});
