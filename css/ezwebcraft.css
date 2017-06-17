@@ -2,6 +2,7 @@ body {
   font: 20px Montserrat, sans-serif;
   line-height: 1.8;
   color:black;
+  background: #EEE;
 }
 
 #self {
@@ -28,11 +29,6 @@ body {
      transform: rotate(0deg) translate3d(0, 0, 0);
    }
  }
- body {
-   font-family: "Open Sans", Arial;
-   background: #EEE;
- }
-
  main {
    width: 400px;
    margin: 30px auto;
@@ -109,7 +105,7 @@ body {
  }
 
  .legend li {
-   width: 110px;
+   width: 130px;
    height: 1.25em;
    margin-bottom: 0.7em;
    padding-left: 0.5em;
@@ -124,7 +120,7 @@ body {
    float: right;
  }
 
- 
+
 footer {
   background-color: #555;
   color: white;
