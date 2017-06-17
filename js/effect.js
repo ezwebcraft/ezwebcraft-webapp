@@ -14,6 +14,10 @@ TweenMax.from("#self-text", 1, {
     delay: 1.2
 });
 
+
+// created goes to 
+// https://codepen.io/MTushar/pen/GoNxOe
+// effect for bar
 $(".bar").each(function(){
   $(this).find(".bar-inner").animate({
     width: $(this).attr("data-width")

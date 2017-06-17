@@ -18,15 +18,16 @@ body {
   display: block;
 }
 
+
 /*section for skill set*/
-h2 {
-  color: #fff;
+.my-skills{
+  color: #000000;
 }
 
 .title {
   font-weight: bold;
   font-size: 20px;
-  color: #db3a34;
+  color: #000;
 }
 
 .bar {
@@ -38,7 +39,7 @@ h2 {
   transition: all 2s linear;
 }
 
-.bar-1,
+.bar-section,
 .my-skills {
   width: 80%;
   margin: 10px auto 25px;
@@ -48,7 +49,7 @@ h2 {
   width: 0;
   height: 35px;
   line-height: 35px;
-  background: #db3a34;
+  background: #e44d26;
   border-radius: 5px 0 0 5px;
 }
 
