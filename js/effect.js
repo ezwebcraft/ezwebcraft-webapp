@@ -15,7 +15,7 @@ TweenMax.from("#self-text", 1, {
 });
 
 
-// created goes to 
+// created goes to
 // https://codepen.io/MTushar/pen/GoNxOe
 // effect for bar
 $(".bar").each(function(){
@@ -23,3 +23,11 @@ $(".bar").each(function(){
     width: $(this).attr("data-width")
   },2000)
 });
+
+
+
+// Pie chart effect and function
+
+function sliceSize(dataNum, dataTotal) {
+  return (dataNum / dataTotal) * 360;
+}
