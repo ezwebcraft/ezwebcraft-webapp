@@ -124,58 +124,7 @@ body {
    float: right;
  }
 
- /*footer {
-   position: fixed;
-   bottom: 0;
-   right: 0;
-   font-size: 13px;
-   background: #DDD;
-   padding: 5px 10px;
-   margin: 5px;
- }*/
-
-/*section for skill set*/
-/*.my-skills{
-  color: #000000;
-}
-
-.title {
-  font-weight: bold;
-  font-size: 20px;
-  color: #000;
-}
-
-.bar {
-  width: 90%;
-  height: 35px;
-  background: #fff;
-  border-radius: 5px;
-  position: relative;
-  transition: all 2s linear;
-}
-
-.bar-section,
-.my-skills {
-  width: 80%;
-  margin: 10px auto 25px;
-}
-
-.bar-inner {
-  width: 0;
-  height: 35px;
-  line-height: 35px;
-  background: #e44d26;
-  border-radius: 5px 0 0 5px;
-}
-
-.bar-percent {
-  position: absolute;
-  right: 10px;
-  top: 5px;
-  font-size: 18px;
-}*/
-/* Set black background color, white text and some padding */
-
+ 
 footer {
   background-color: #555;
   color: white;
