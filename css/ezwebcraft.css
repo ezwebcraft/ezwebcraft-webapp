@@ -27,7 +27,6 @@ body {
    }
  }
 
-
  section {
    margin-top: 30px;
  }
@@ -188,9 +187,7 @@ body {
   }
 
   .fa-graduation-cap {
-
     color: black;
-    z-index: auto;
   }
 
   footer {
