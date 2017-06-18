@@ -6,22 +6,18 @@
   <title>EZ-WebCraft</title>
   <meta name="description" content="DESCRIPTION">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
+  <link rel="stylesheet" href="css/ezwebcraft.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
   <!-- need to load TweenMax framework for effec -->
-
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
-  <link rel="stylesheet" href="css/ezwebcraft.css">
-  <!--[if lt IE 9]>
-       <script src = "http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-     <![endif]-->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body>
+<body class="">
   <!-- nav container section -->
 
   <!-- Navbar -->
@@ -37,98 +33,205 @@
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">About</a></li>
-          <li><a href="#">Skill</a></li>
-          <li><a href="#">Gallery</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skill</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
-<br />
+  <br />
 
-  <div class="jumbotron text-center">
+  <header class="jumbotron text-center">
     <center>
       <div id="self">
         <img class="img-responsive img-circle margin" id="self-text" src="img/profile.png" style="display:inline" alt="MySelf" width="250" height="250">
       </div>
     </center>
-  </div>
+  </header>
   <hr/>
-  <section class="container">
-    <h1>about me</h1>
-    <div class="col-lg-8">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-        laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+  <section id="about" >
+    <div class="container">
+      <h1>about me</h1>
+      <div class="col-md-6">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+          occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+          laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+      </div>
+      <div class="about-icon col-md-6 text-center">
+        <span class="fa-stack fa-5x">
+          <i class="fa fa-square-o fa-stack-2x"></i>
+          <i class="fa fa-html5  fa-stack-1x"></i>
+        </span>
+        <span class="fa-stack fa-5x">
+          <i class="fa fa-square-o fa-stack-2x"></i>
+          <i class="fa fa-server fa-stack-1x"></i>
+        </span>
+      </div>
     </div>
-    </section>
-  <hr>
-  <section class="container">
-
-
-<main>
-  <h1>My SKill Chart</h1>
-  <h4>GitHub Repo Scores</h4>
-  <section>
-    <div class="pieID pie">
-
-    </div>
-
-    <ul class="pieID legend">
-
-      <li>
-        <em>HTML5</em>
-        <span>15</span>
-      </li>
-      <li>
-        <em>CSS3</em>
-        <span>11</span>
-      </li>
-      <li>
-        <em>Javascript</em>
-        <span>44</span>
-      </li>
-      <li>
-        <em>Python</em>
-      <span>20</span>
-
-      </li>
-      <li>
-        <em>Linux</em>
-        <span>10</span>
-      </li>
-    </ul>
   </section>
 
-</main>
-
-</section>
-
   <hr>
-  <section class="container">
-    <h1>gallery</h1>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet dui quam. Pellentesque sed dictum dui. Maecenas in nulla orci. Vestibulum justo nibh, venenatis id pretium nec, scelerisque sit amet ipsum. Ut tincidunt varius tellus, in sodales
-      ex facilisis et. Integer vestibulum est odio, vel mollis nisl suscipit eget. Quisque nibh p
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet dui quam. Pellentesque sed dictum dui. Maecenas in nulla orci. Vestibulum justo nibh, venenatis id pretium nec, scelerisque sit amet ipsum. Ut tincidunt varius tellus, in sodales
-      ex facilisis et. Integer vestibulum est odio, vel mollis nisl suscipit eget. Quisque nibh p
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet dui quam. Pellentesque sed dictum dui. Maecenas in nulla orci. Vestibulum justo nibh, venenatis id pretium nec, scelerisque sit amet ipsum. Ut tincidunt varius tellus, in sodales
-      ex facilisis et. Integer vestibulum est odio, vel mollis nisl suscipit eget. Quisque nibh p
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet dui quam. Pellentesque sed dictum dui. Maecenas in nulla orci. Vestibulum justo nibh, venenatis id pretium nec, scelerisque sit amet ipsum. Ut tincidunt varius tellus, in sodales
-      ex facilisis et. Integer vestibulum est odio, vel mollis nisl suscipit eget. Quisque nibh p
-    </p>
+
+  <section id="skills">
+    <div class="container text-center">
+
+      <h1>My SKill Chart</h1>
+      <h4>GitHub Repo Scores</h4>
+
+      <div class="pieID pie">
+      </div>
+      <ul class="pieID legend">
+
+        <li>
+          <em>HTML5</em>
+          <span>15</span>
+        </li>
+        <li>
+          <em>CSS3</em>
+          <span>11</span>
+        </li>
+        <li>
+          <em>Javascript</em>
+          <span>44</span>
+        </li>
+        <li>
+          <em>Python</em>
+          <span>20</span>
+
+        </li>
+        <li>
+          <em>Linux</em>
+          <span>10</span>
+        </li>
+      </ul>
+
+    </div>
 
   </section>
+
+
+  <hr>
+  <!-- Portfolio Grid Section -->
+
+  <section id="portfolio" class="tab-pane">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2>Portfolio</h2>
+          <center>
+            <hr class="star-primary">
+          </center>
+        </div>
+      </div>
+
+      <div class="col-sm-4 portfolio-item text-center">
+        <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+          <div class="caption">
+            <div class="caption-content">
+              <i class="fa fa-search-plus fa-3x"></i>
+            </div>
+          </div>
+          <i class="fa fa-graduation-cap fa-5x" aria-hidden="true"></i>
+          <h3>Education</h3>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- portfolio-modal -->
+  <div class="container portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="modal-body">
+
+              <center>
+
+                  <hr class="star-primary">
+                  <h2>Online Course</h2>
+
+                  <!-- <i class="fa fa-graduation-cap fa-5x" aria-hidden="true"></i> -->
+                <br />
+                <p>I continue to improve my skills in web development and staying up to date with the latest technology</p>
+                <img class="img-responsive" src="img/code-academy.png" />
+                <h4>Code Acadmeny</h4>
+                <strong>
+                  <a href="http://www.codecademy.com/betaWhiz93012#completed">Completed Courses</a>
+                </strong>
+                <img class="img-responsive" src="img/linux-academy.png"/>
+                <h4>Linux Academy</h4>
+                  <strong>
+                    <a href="https://linuxacademy.com">Linux Academy</a>
+                  </strong>
+                <img class="img-responsive" src="img/Treehouse's_logo.png"/>
+                <h4>TreeHouse</h4>
+                  <strong>
+                    <a href="https://teamtreehouse.com/elvinramirez">Completed Courses</a>
+                  </strong>
+                <br>
+                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+              </center>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
 
   <!-- footer container section -->
-  <footer class="container-fluid text-center">ezwebcraft</footer>
+
+  <footer class="container-fluid text-center navbar-bottom">
+    <div class="footer-above">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col col-md-4">
+            <h3>Location</h3>
+            <p>Staten Island, NY</p>
+          </div>
+          <div class="footer-col col-md-4">
+            <h3>Around the Web</h3>
+            <ul class="list-inline">
+
+              <li>
+                <a href="https://plus.google.com/110144829517604073400" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus fa-2x"></i></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/PatchCat13" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter fa-2x"></i></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/elvin-ramirez-2b262277"><i class="fa fa-fw fa-linkedin fa-2x"></i></a>
+              </li>
+              <li>
+                <a href="https://github.com/ezwebcraft?tab=repositories"><i class="fa fa-fw fa-github fa-2x"></i></a>
+              </li>
+
+            </ul>
+          </div>
+          <div class="footer-col col-md-4">
+            <p>This Single Page Website was create by</p>
+            <p> <a href="http://ezwebcraft.com">EZ-WebCraft</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p>Copyright &copy; EZ-WebCraft 2014</p>
+  </footer>
+
   <script src="js/effect.js"></script>
 </body>
 
