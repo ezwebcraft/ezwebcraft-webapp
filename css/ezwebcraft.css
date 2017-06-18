@@ -16,7 +16,7 @@ body {
   display: block;
 }
 
-/*Skill set charts*/
+/* Skill set charts */
 
 /* credit go to https://codepen.io/ejsado/pen/cLrlm*/
 
@@ -112,7 +112,7 @@ body {
  .legend span {
    float: right;
  }
-/*icons for ABOUT ME*/
+ /*icons for ABOUT ME*/
  .about-icon{
    padding-left:30px;
  }
