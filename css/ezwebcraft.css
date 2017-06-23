@@ -1,12 +1,6 @@
-body {
-  font: 20px Montserrat, sans-serif;
-  line-height: 1.8;
-  color: black;
-  background: #EEE;
-}
 
 .navbar-custom {
-  background-color: #2C3E50;
+  background: #2C3E50;
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
