@@ -14,6 +14,18 @@ TweenMax.from("#self-text", 1, {
     delay: 1.2
 });
 
+// slide effect
+$(window).scroll(function() {
+  $(".slideanim").each(function(){
+    var pos = $(this).offset().top;
+
+    var winTop = $(window).scrollTop();
+    if (pos < winTop + 600) {
+      $(this).addClass("slide");
+    }
+  });
+});
+
 // Pie chart effect and function
 
 function sliceSize(dataNum, dataTotal) {
@@ -67,8 +79,8 @@ function createPie(dataElement, pieElement) {
 }
 createPie(".pieID.legend", ".pieID.pie");
 
-// Treehouse script and plugin for badges
 
+// Treehouse script and plugin for badges
 
 // When Document is ready, build treehouse Badge Widget
 $(document).ready(function () {
