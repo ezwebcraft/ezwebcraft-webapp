@@ -1,25 +1,50 @@
 body{
-  font-family: 'Titillium Web', sans-serif;
-  font-size: bold;
-}
-.navbar{
-  background-color: blue;
-}
-.navbar-custom {
-  /*background: #2C3E50;*/
-  /*font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
   /*font-family: 'Titillium Web', sans-serif;*/
-  text-transform: uppercase;
-  font-size: bold;
-  border: none;
+  font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+
+}
+/*.navbar{
+  background-color: #207a1a;
+}*/
+.jumbotron{
+  background-image: image('../img/python1600.png');
+}
+.navbar {
+    margin-bottom: 0;
+    background-color: #26292e;
+    z-index: 9999;
+    border: 0;
+    font-size: 1.6 em !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: 'Titillium Web', sans-serif;
 }
 
+/*.navbar {
+  background-color: #26292e;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight:900;
+
+}*/
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: red !important;
+    background-color: #fff !important;
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
 
 #self {
   position: relative;
   width: 250px;
   height: 250px;
-  background:rgb(134,202,236);
+  background:#86caec;
 
 }
 
@@ -75,6 +100,9 @@ body{
   }
 }
 
+/*#skills{
+  background-color: whi;
+}*/
 section {
   margin-top: 30px;
 }
