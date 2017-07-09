@@ -1,9 +1,16 @@
-
+body{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: bold;
+}
+.navbar{
+  background-color: blue;
+}
 .navbar-custom {
-  background: #2C3E50;
-  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*background: #2C3E50;*/
+  /*font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  /*font-family: 'Titillium Web', sans-serif;*/
   text-transform: uppercase;
-  font-weight: 700;
+  font-size: bold;
   border: none;
 }
 
@@ -292,7 +299,7 @@ footer .footer-below {
 /* Controls badges on-hover opacity */
 #badges li img:hover {opacity:.7;}
 
-
+/*Code school badge style */
 #badges2 {
   text-align: center;
 }
