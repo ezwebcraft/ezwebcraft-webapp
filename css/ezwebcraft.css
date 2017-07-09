@@ -7,9 +7,9 @@ body{
 /*.navbar{
   background-color: #207a1a;
 }*/
-.jumbotron{
+/*.jumbotron{
   background-image: image('../img/python1600.png');
-}
+}*/
 .navbar {
     margin-bottom: 0;
     background-color: #26292e;
@@ -17,7 +17,7 @@ body{
     border: 0;
     font-size: 1.6 em !important;
     line-height: 1.42857143 !important;
-    letter-spacing: 4px;
+    letter-spacing: .4 em;
     border-radius: 0;
     font-family: 'Titillium Web', sans-serif;
 }
@@ -104,7 +104,7 @@ body{
   background-color: whi;
 }*/
 section {
-  margin-top: 30px;
+  margin-top: 3.0 em;
 }
 
 .pieID {
