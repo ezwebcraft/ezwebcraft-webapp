@@ -2,7 +2,6 @@ body{
   /*font-family: 'Titillium Web', sans-serif;*/
   font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
 
-
 }
 /*.navbar{
   background-color: #207a1a;
@@ -20,6 +19,10 @@ body{
     letter-spacing: .4 em;
     border-radius: 0;
     font-family: 'Titillium Web', sans-serif;
+}
+
+#portfolio {
+  padding-top: 10%;
 }
 
 /*.navbar {
