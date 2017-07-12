@@ -2,13 +2,14 @@ body{
   /*font-family: 'Titillium Web', sans-serif;*/
   font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
 
+  /*height: 100%;
+     background-color: #434343;
+     background-image:linear-gradient(#434343, #282828);*/
 }
-/*.navbar{
-  background-color: #207a1a;
-}*/
-/*.jumbotron{
-  background-image: image('../img/python1600.png');
-}*/
+.cloud-bg{
+  background-color: #6babff;
+}
+
 .navbar {
     margin-bottom: 0;
     background-color: #26292e;
@@ -25,12 +26,6 @@ body{
   padding-top: 10%;
 }
 
-/*.navbar {
-  background-color: #26292e;
-  font-family: 'Titillium Web', sans-serif;
-  font-weight:900;
-
-}*/
 .navbar li a, .navbar .navbar-brand {
     color: #fff !important;
 }
@@ -69,6 +64,217 @@ body{
     /* Make the element visible */
     visibility: visible;
 }
+/* grid test */
+
+/*
+cloud effect from
+by Wavy Grass
+A PEN BY Joseph Murphy
+https://codepen.io/DonzoJoe/pen/zxmdrQ
+*/
+
+
+.cloudcontain1
+{
+    position: absolute;
+    top: 200px;
+
+    width: 200px;
+    height: 150px;
+
+    -webkit-animation: cloudmove1 55s infinite;
+            animation: cloudmove1 55s infinite;
+
+    opacity: .7;
+}
+
+@-webkit-keyframes cloudmove1
+{
+    0%
+    {
+        left: 0;
+    }
+    100%
+    {
+        left: 1200px;
+    }
+}
+
+@keyframes cloudmove1
+{
+    0%
+    {
+        left: 0;
+    }
+    100%
+    {
+        left: 100%;
+    }
+}
+
+.cloudcontain2
+{
+    position: absolute;
+    top: 35px;
+
+    width: 200px;
+    height: 150px;
+
+    -webkit-animation: cloudmove2 40s infinite;
+            animation: cloudmove2 40s infinite;
+    -webkit-animation-delay: -16s;
+            animation-delay: -16s;
+
+    opacity: .3;
+}
+
+@-webkit-keyframes cloudmove2
+{
+    0%
+    {
+        left: 0;
+    }
+    100%
+    {
+        left: 100%;
+    }
+}
+
+@keyframes cloudmove2
+{
+    0%
+    {
+        left: 0;
+    }
+    100%
+    {
+        left: 100%;
+    }
+}
+
+.cloudcontain3
+{
+    position: absolute;
+    top: 220px;
+
+    width: 200px;
+    height: 150px;
+
+    -webkit-animation: cloudmove3 47s infinite;
+            animation: cloudmove3 47s infinite;
+    -webkit-animation-delay: -8s;
+            animation-delay: -8s;
+
+    opacity: .6;
+}
+
+@-webkit-keyframes cloudmove3
+{
+    0%
+    {
+        left: 0;
+    }
+    100%
+    {
+        left: 100%;
+    }
+}
+
+@keyframes cloudmove3
+{
+    0%
+    {
+        left: 0;
+    }
+    100%
+    {
+        left: 100%;
+    }
+}
+
+
+.cloudcontain4
+{
+    position: absolute;
+    top: 400px;
+
+    width: 200px;
+    height: 150px;
+
+    -webkit-animation: cloudmove4 41s infinite;
+            animation: cloudmove4 41s infinite;
+    -webkit-animation-delay: -13s;
+            animation-delay: -13s;
+
+    opacity: .6;
+}
+
+@-webkit-keyframes cloudmove4
+{
+    0%
+    {
+        left: 0;
+    }
+    100%
+    {
+        left: 100%;
+    }
+}
+
+@keyframes cloudmove4
+{
+    0%
+    {
+        left: 0;
+    }
+    100%
+    {
+        left: 100%;
+    }
+}
+
+
+.cloud1
+{
+    position: absolute;
+    z-index: 1;
+
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+
+    border-radius: 50px;
+    background: white;
+}
+
+.cloud2
+{
+    position: absolute;
+    z-index: 2;
+
+    width: 100px;
+    height: 100px;
+    margin: 45px;
+
+    border-radius: 50px;
+    background: white;
+}
+
+.cloud3
+{
+    position: absolute;
+    z-index: 3;
+    top: 50px;
+
+    width: 75px;
+    height: 75px;
+    margin: 0;
+
+    border-radius: 45px;
+    background: white;
+}
+/* end cloud effect*/
+
 
 
 /* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
@@ -103,9 +309,6 @@ body{
   }
 }
 
-/*#skills{
-  background-color: whi;
-}*/
 section {
   margin-top: 3.0 em;
 }
