@@ -1,25 +1,25 @@
-body{
+body {
   /*font-family: 'Titillium Web', sans-serif;*/
   font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
-
   /*height: 100%;
      background-color: #434343;
      background-image:linear-gradient(#434343, #282828);*/
 }
-.cloud-bg{
+
+.cloud-bg {
   background-color: #6babff;
 }
 
 .navbar {
-    margin-bottom: 0;
-    background-color: #26292e;
-    z-index: 9999;
-    border: 0;
-    font-size: 1.6 em !important;
-    line-height: 1.42857143 !important;
-    letter-spacing: .4 em;
-    border-radius: 0;
-    font-family: 'Titillium Web', sans-serif;
+  margin-bottom: 0;
+  background-color: #26292e;
+  z-index: 9999;
+  border: 0;
+  font-size: 1.6 em !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: .4 em;
+  border-radius: 0;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 #portfolio {
@@ -27,23 +27,24 @@ body{
 }
 
 .navbar li a, .navbar .navbar-brand {
-    color: #fff !important;
+  color: #fff !important;
 }
+
 .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: red !important;
-    background-color: #fff !important;
+  color: red !important;
+  background-color: #fff !important;
 }
+
 .navbar-default .navbar-toggle {
-    border-color: transparent;
-    color: #fff !important;
+  border-color: transparent;
+  color: #fff !important;
 }
 
 #self {
   position: relative;
   width: 250px;
   height: 250px;
-  background:#86caec;
-
+  background: #86caec;
 }
 
 #self img {
@@ -53,18 +54,25 @@ body{
 
 
 /* slide section for effec */
-.slideanim {visibility:hidden;}
-.slide {
-    /* The name of the animation */
-    animation-name: slide;
-    -webkit-animation-name: slide;
-    /* The duration of the animation */
-    animation-duration: 1s;
-    -webkit-animation-duration: 1s;
-    /* Make the element visible */
-    visibility: visible;
+
+.slideanim {
+  visibility: hidden;
 }
+
+.slide {
+  /* The name of the animation */
+  animation-name: slide;
+  -webkit-animation-name: slide;
+  /* The duration of the animation */
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  /* Make the element visible */
+  visibility: visible;
+}
+
+
 /* grid test */
+
 
 /*
 cloud effect from
@@ -73,230 +81,181 @@ A PEN BY Joseph Murphy
 https://codepen.io/DonzoJoe/pen/zxmdrQ
 */
 
-
-.cloudcontain1
-{
-    position: absolute;
-    top: 200px;
-
-    width: 200px;
-    height: 150px;
-
-    -webkit-animation: cloudmove1 55s infinite;
-            animation: cloudmove1 55s infinite;
-
-    opacity: .7;
+.cloudcontain1 {
+  position: absolute;
+  top: 200px;
+  width: 200px;
+  height: 150px;
+  -webkit-animation: cloudmove1 55s infinite;
+  animation: cloudmove1 55s infinite;
+  opacity: .7;
 }
 
-@-webkit-keyframes cloudmove1
-{
-    0%
-    {
-        left: 0;
-    }
-    100%
-    {
-        left: 1200px;
-    }
+@-webkit-keyframes cloudmove1 {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 1200px;
+  }
 }
 
-@keyframes cloudmove1
-{
-    0%
-    {
-        left: 0;
-    }
-    100%
-    {
-        left: 100%;
-    }
+@keyframes cloudmove1 {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 100%;
+  }
 }
 
-.cloudcontain2
-{
-    position: absolute;
-    top: 35px;
-
-    width: 200px;
-    height: 150px;
-
-    -webkit-animation: cloudmove2 40s infinite;
-            animation: cloudmove2 40s infinite;
-    -webkit-animation-delay: -16s;
-            animation-delay: -16s;
-
-    opacity: .3;
+.cloudcontain2 {
+  position: absolute;
+  top: 35px;
+  width: 200px;
+  height: 150px;
+  -webkit-animation: cloudmove2 40s infinite;
+  animation: cloudmove2 40s infinite;
+  -webkit-animation-delay: -16s;
+  animation-delay: -16s;
+  opacity: .3;
 }
 
-@-webkit-keyframes cloudmove2
-{
-    0%
-    {
-        left: 0;
-    }
-    100%
-    {
-        left: 100%;
-    }
+@-webkit-keyframes cloudmove2 {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 100%;
+  }
 }
 
-@keyframes cloudmove2
-{
-    0%
-    {
-        left: 0;
-    }
-    100%
-    {
-        left: 100%;
-    }
+@keyframes cloudmove2 {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 100%;
+  }
 }
 
-.cloudcontain3
-{
-    position: absolute;
-    top: 220px;
-
-    width: 200px;
-    height: 150px;
-
-    -webkit-animation: cloudmove3 47s infinite;
-            animation: cloudmove3 47s infinite;
-    -webkit-animation-delay: -8s;
-            animation-delay: -8s;
-
-    opacity: .6;
+.cloudcontain3 {
+  position: absolute;
+  top: 220px;
+  width: 200px;
+  height: 150px;
+  -webkit-animation: cloudmove3 47s infinite;
+  animation: cloudmove3 47s infinite;
+  -webkit-animation-delay: -8s;
+  animation-delay: -8s;
+  opacity: .6;
 }
 
-@-webkit-keyframes cloudmove3
-{
-    0%
-    {
-        left: 0;
-    }
-    100%
-    {
-        left: 100%;
-    }
+@-webkit-keyframes cloudmove3 {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 100%;
+  }
 }
 
-@keyframes cloudmove3
-{
-    0%
-    {
-        left: 0;
-    }
-    100%
-    {
-        left: 100%;
-    }
+@keyframes cloudmove3 {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 100%;
+  }
 }
 
-
-.cloudcontain4
-{
-    position: absolute;
-    top: 400px;
-
-    width: 200px;
-    height: 150px;
-
-    -webkit-animation: cloudmove4 41s infinite;
-            animation: cloudmove4 41s infinite;
-    -webkit-animation-delay: -13s;
-            animation-delay: -13s;
-
-    opacity: .6;
+.cloudcontain4 {
+  position: absolute;
+  top: 400px;
+  width: 200px;
+  height: 150px;
+  -webkit-animation: cloudmove4 41s infinite;
+  animation: cloudmove4 41s infinite;
+  -webkit-animation-delay: -13s;
+  animation-delay: -13s;
+  opacity: .6;
 }
 
-@-webkit-keyframes cloudmove4
-{
-    0%
-    {
-        left: 0;
-    }
-    100%
-    {
-        left: 100%;
-    }
+@-webkit-keyframes cloudmove4 {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 100%;
+  }
 }
 
-@keyframes cloudmove4
-{
-    0%
-    {
-        left: 0;
-    }
-    100%
-    {
-        left: 100%;
-    }
+@keyframes cloudmove4 {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+.cloud1 {
+  position: absolute;
+  z-index: 1;
+  width: 100px;
+  height: 100px;
+  margin: 15px;
+  border-radius: 50px;
+  background: white;
+}
+
+.cloud2 {
+  position: absolute;
+  z-index: 2;
+  width: 100px;
+  height: 100px;
+  margin: 45px;
+  border-radius: 50px;
+  background: white;
+}
+
+.cloud3 {
+  position: absolute;
+  z-index: 3;
+  top: 50px;
+  width: 75px;
+  height: 75px;
+  margin: 0;
+  border-radius: 45px;
+  background: white;
 }
 
 
-.cloud1
-{
-    position: absolute;
-    z-index: 1;
-
-    width: 100px;
-    height: 100px;
-    margin: 15px;
-
-    border-radius: 50px;
-    background: white;
-}
-
-.cloud2
-{
-    position: absolute;
-    z-index: 2;
-
-    width: 100px;
-    height: 100px;
-    margin: 45px;
-
-    border-radius: 50px;
-    background: white;
-}
-
-.cloud3
-{
-    position: absolute;
-    z-index: 3;
-    top: 50px;
-
-    width: 75px;
-    height: 75px;
-    margin: 0;
-
-    border-radius: 45px;
-    background: white;
-}
 /* end cloud effect*/
 
 
-
 /* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+
 @keyframes slide {
-    0% {
-        opacity: 0;
-        transform: translateY(70%);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0%);
-    }
+  0% {
+    opacity: 0;
+    transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
 }
+
 @-webkit-keyframes slide {
-    0% {
-        opacity: 0;
-        -webkit-transform: translateY(70%);
-    }
-    100% {
-        opacity: 1;
-        -webkit-transform: translateY(0%);
-    }
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
 }
 
 
@@ -475,13 +434,13 @@ section {
 
 .icon {
   color: black;
-
 }
+
 
 /*GitHub card*/
 
-/*end of card*/
 
+/*end of card*/
 
 footer {
   color: #fff;
@@ -504,36 +463,62 @@ footer .footer-below {
   padding: 25px 0;
 }
 
+
 /*badges style for each */
 
+
 /* Controls width of the widget */
-.badge-container {width:700px; margin: 0 auto;}
 
-/* Makes Badges display inline */
-#badges li { display: inline;}
-
-/* Controls badges row offset. THIS FUNCTION WILL CHANGE BASED ON THE NUMBER OF BADGES PER ROW */
-/* Indent 30px every eleventh badge, repeat every 20 badges */
-#badges li:nth-child(20n+11) {margin-left:30px;}
-
-/* Controls badges size and alignment */
-#badges li img {
-  width: 60px;
-  margin:-17px 2px 0px 0px;
+.badge-container {
+  width: 700px;
+  margin: 0 auto;
 }
 
+
+/* Makes Badges display inline */
+
+#badges li {
+  display: inline;
+}
+
+
+/* Controls badges row offset. THIS FUNCTION WILL CHANGE BASED ON THE NUMBER OF BADGES PER ROW */
+
+
+/* Indent 30px every eleventh badge, repeat every 20 badges */
+
+#badges li:nth-child(20n+11) {
+  margin-left: 30px;
+}
+
+
+/* Controls badges size and alignment */
+
+#badges li img {
+  width: 60px;
+  margin: -17px 2px 0px 0px;
+}
+
+
 /* Controls Header Formatting */
+
 .badge-container h1 {
-  text-align:center;
+  text-align: center;
   font-family: 'Helvetica Neue';
   font-weight: bold;
   -webkit-font-smoothing: antialiased;
 }
 
+
 /* Controls badges on-hover opacity */
-#badges li img:hover {opacity:.7;}
+
+#badges li img:hover {
+  opacity: .7;
+}
+
 
 /*Code school badge style */
+
 #badges2 {
   text-align: center;
 }
@@ -554,7 +539,8 @@ footer .footer-below {
   color: #999;
   font-size: 1.9rem;
   font-weight: 200;
-  min-height: 80px;;
+  min-height: 80px;
+  ;
 }
 
 .course img {
