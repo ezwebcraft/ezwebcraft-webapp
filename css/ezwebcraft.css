@@ -1,11 +1,14 @@
-body {
+body p{
   /*font-family: 'Titillium Web', sans-serif;*/
   font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font-family: 'Titillium Web', sans-serif;*/
   /*height: 100%;
      background-color: #434343;
      background-image:linear-gradient(#434343, #282828);*/
 }
-
+.title-font{
+  font-family: 'Lobster', sans-serif;
+}
 .cloud-bg {
   background-color: #6babff;
 }
@@ -19,7 +22,8 @@ body {
   line-height: 1.42857143 !important;
   letter-spacing: .4 em;
   border-radius: 0;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Abril Fatface', cursive;
+
 }
 
 #portfolio {
