@@ -1,3 +1,5 @@
+// using TweenMax
+
 TweenMax.from("#self", 1, {
   opacity: 0,
   rotation: 360,

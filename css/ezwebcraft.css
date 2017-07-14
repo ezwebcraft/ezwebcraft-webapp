@@ -1,10 +1,5 @@
 body p{
-  /*font-family: 'Titillium Web', sans-serif;*/
   font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
-  /*font-family: 'Titillium Web', sans-serif;*/
-  /*height: 100%;
-     background-color: #434343;
-     background-image:linear-gradient(#434343, #282828);*/
 }
 .title-font{
   font-family: 'Lobster', sans-serif;
@@ -238,7 +233,10 @@ https://codepen.io/DonzoJoe/pen/zxmdrQ
 /* end cloud effect*/
 
 
-/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+/* Go from 0% to 100% opacity (see-through)
+and specify the percentage from when to
+slide in the element along the
+ Y-axis */
 
 @keyframes slide {
   0% {
@@ -261,7 +259,6 @@ https://codepen.io/DonzoJoe/pen/zxmdrQ
     -webkit-transform: translateY(0%);
   }
 }
-
 
 /* credit go to https://codepen.io/ejsado/pen/cLrlm*/
 
@@ -358,13 +355,11 @@ section {
   float: right;
 }
 
-
 /*icons for ABOUT ME*/
 
 .about-icon {
   padding-left: 30px;
 }
-
 
 /*mode for model section*/
 
@@ -440,11 +435,6 @@ section {
   color: black;
 }
 
-
-/*GitHub card*/
-
-
-/*end of card*/
 
 footer {
   color: #fff;
