@@ -1,9 +1,11 @@
-body p{
+body p {
   font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.title-font{
+
+.title-font {
   font-family: 'Lobster', sans-serif;
 }
+
 .cloud-bg {
   background-color: #6babff;
 }
@@ -18,7 +20,6 @@ body p{
   letter-spacing: .4 em;
   border-radius: 0;
   font-family: 'Abril Fatface', cursive;
-
 }
 
 #portfolio {
@@ -260,6 +261,7 @@ slide in the element along the
   }
 }
 
+
 /* credit go to https://codepen.io/ejsado/pen/cLrlm*/
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
@@ -355,11 +357,13 @@ section {
   float: right;
 }
 
+
 /*icons for ABOUT ME*/
 
 .about-icon {
   padding-left: 30px;
 }
+
 
 /*mode for model section*/
 
@@ -434,7 +438,6 @@ section {
 .icon {
   color: black;
 }
-
 
 footer {
   color: #fff;
