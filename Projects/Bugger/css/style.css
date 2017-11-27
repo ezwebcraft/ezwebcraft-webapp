@@ -1,0 +1,288 @@
+
+/* Fun font to visual a bugger title */
+@font-face
+{
+    font-family: 'Crisp';
+
+    src: url('../font/walken-crisp/tt/walken crisp.ttf');
+}
+.bug-Title
+{
+    font-family: Crisp;
+
+    color: #091;
+}
+body
+{
+    text-align: center;
+    /* For a Blue Sky gradient effect*/
+
+    background: -webkit-linear-gradient(45deg, rgba(242,249,255,1) 0%,rgba(64,150,238,1) 100%);
+}
+
+p
+{
+    margin: 0;
+}
+
+/* for a more friendly frame */
+canvas
+{
+    z-index: 10;
+
+    border: 3px solid black;
+    border-radius: 10%;
+    box-shadow: 0 0 0 1px #111000;
+}
+
+.instruc
+{
+    margin: auto;
+
+    text-align: center;
+}
+.bottom
+{
+    display: inline;
+
+    margin: auto;
+
+    list-style: none;
+
+    text-align: center;
+}
+.bottom li
+{
+    font-family: Crisp;
+    font-size: 20px;
+
+    display: inline;
+
+    padding: 5%;
+    padding: 3%;
+
+    color: #091;
+}
+
+.container
+{
+    max-width: 100%;
+    margin: auto;
+    padding: 5%;
+
+    color: #fff;
+    border-top: 10px solid black;
+    background-color: #2e3d49;
+}
+.container i
+{
+    color: #091;
+}
+
+/*
+cloud effect from 
+by Wavy Grass
+A PEN BY Joseph Murphy
+https://codepen.io/DonzoJoe/pen/zxmdrQ
+*/
+
+
+.cloudcontain1
+{
+    position: absolute;
+    top: 250px;
+
+    width: 200px;
+    height: 150px;
+
+    -webkit-animation: cloudmove1 55s infinite;
+            animation: cloudmove1 55s infinite;
+
+    opacity: .7;
+}
+
+@-webkit-keyframes cloudmove1
+{
+    0%
+    {
+        left: 0;
+    }
+    100%
+    {
+        left: 1200px;
+    }
+}
+
+@keyframes cloudmove1
+{
+    0%
+    {
+        left: 0;
+    }
+    100%
+    {
+        left: 100%;
+    }
+}
+
+.cloudcontain2
+{
+    position: absolute;
+    top: 75px;
+
+    width: 200px;
+    height: 150px;
+
+    -webkit-animation: cloudmove2 40s infinite;
+            animation: cloudmove2 40s infinite;
+    -webkit-animation-delay: -16s;
+            animation-delay: -16s;
+
+    opacity: .3;
+}
+
+@-webkit-keyframes cloudmove2
+{
+    0%
+    {
+        left: 0;
+    }
+    100%
+    {
+        left: 100%;
+    }
+}
+
+@keyframes cloudmove2
+{
+    0%
+    {
+        left: 0;
+    }
+    100%
+    {
+        left: 100%;
+    }
+}
+
+.cloudcontain3
+{
+    position: absolute;
+    top: 320px;
+
+    width: 200px;
+    height: 150px;
+
+    -webkit-animation: cloudmove3 47s infinite;
+            animation: cloudmove3 47s infinite;
+    -webkit-animation-delay: -8s;
+            animation-delay: -8s;
+
+    opacity: .6;
+}
+
+@-webkit-keyframes cloudmove3
+{
+    0%
+    {
+        left: 0;
+    }
+    100%
+    {
+        left: 100%;
+    }
+}
+
+@keyframes cloudmove3
+{
+    0%
+    {
+        left: 0;
+    }
+    100%
+    {
+        left: 100%;
+    }
+}
+
+
+.cloudcontain4
+{
+    position: absolute;
+    top: 400px;
+
+    width: 200px;
+    height: 150px;
+
+    -webkit-animation: cloudmove4 41s infinite;
+            animation: cloudmove4 41s infinite;
+    -webkit-animation-delay: -13s;
+            animation-delay: -13s;
+
+    opacity: .6;
+}
+
+@-webkit-keyframes cloudmove4
+{
+    0%
+    {
+        left: 0;
+    }
+    100%
+    {
+        left: 100%;
+    }
+}
+
+@keyframes cloudmove4
+{
+    0%
+    {
+        left: 0;
+    }
+    100%
+    {
+        left: 100%;
+    }
+}
+
+
+.cloud1
+{
+    position: absolute;
+    z-index: 1;
+
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+
+    border-radius: 50px;
+    background: white;
+}
+
+.cloud2
+{
+    position: absolute;
+    z-index: 2;
+
+    width: 100px;
+    height: 100px;
+    margin: 45px;
+
+    border-radius: 50px;
+    background: white;
+}
+
+.cloud3
+{
+    position: absolute;
+    z-index: 3;
+    top: 50px;
+
+    width: 75px;
+    height: 75px;
+    margin: 0;
+
+    border-radius: 45px;
+    background: white;
+}

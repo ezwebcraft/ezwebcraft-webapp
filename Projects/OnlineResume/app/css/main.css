@@ -1,0 +1,38 @@
+body {
+    padding-top: 40px;
+    display: inline;
+}
+/* to make sure the font is big enough*/
+.navbar {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.flex-box {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+header {
+    height: 10%;
+}
+/* added a contras look*/
+#name {
+    color: white;
+    font-family: 'Abril Fatface', cursive;
+}
+/* added a nice curl font to web developer*/
+#role {
+    display: none;
+    color: red;
+    font-family: 'Lobster', cursive;
+}
+
