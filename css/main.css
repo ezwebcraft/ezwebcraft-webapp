@@ -1,6 +1,11 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
 
+@font-face {
+  font-family: crisp;
+  src: url(/fonts/walken-crisp/ot/walken-crisp.otf);
+}
+
 
 /*
 	Strata by HTML5 UP
@@ -1847,7 +1852,11 @@ hr {
 
 hr.major {
     margin: 3em 0;
+    font-family: crisp, serif;
+
 }
+
+
 
 blockquote {
     border-left: solid 6px #efefef;
@@ -1928,6 +1937,8 @@ header h6+p {
 
 header.major h2 {
     font-size: 2em;
+    font-family: crisp, serif;
+
 }
 
 
@@ -3220,6 +3231,8 @@ body.is-touch .poptrox-popup .closer {
 
     header.major h2 {
         font-size: 1.35em;
+        font-family: crisp, serif;
+
     }
 
     /* List */
