@@ -1,17 +1,16 @@
-
-$(document).ready(function() {
+$(function() {
 
   $.ajax({
     url: 'https://www.codeschool.com/users/Ramirez1900.json',
     dataType: 'jsonp',
     success: function(data) {
-      CodeSchool(data.courses.completed)
+      populateWithCourses(data.courses.completed)
     }
   });
 
-  function CodeSchool(courses) {
+  function populateWithCourses(courses) {
 
-    var $badges = $('#badges2');
+    var $badges = $('#badges');
 
     courses.forEach(function(course) {
 
