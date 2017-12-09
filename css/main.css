@@ -1,8 +1,8 @@
 /*
  * Globals
  */
-
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
+
 
 /* Links */
 a,
@@ -75,6 +75,7 @@ body {
   text-transform: uppercase;
   font-weight: 500;
 }
+
 
 .masthead {
   margin-bottom: 2rem;
