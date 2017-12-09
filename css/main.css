@@ -83,6 +83,7 @@ body {
 
 .masthead-brand {
   margin-bottom: 0;
+  /*margin-right: 80%;*/
 }
 
 .nav-masthead .nav-link {
@@ -138,6 +139,44 @@ body {
   color: #fff;
 }
 
+/*Code school badge style */
+
+#badges2 {
+  text-align: center;
+}
+
+.course {
+  background: #F5F5F5;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 5px #EAEAEA;
+  display: inline-block;
+  height: 350px;
+  margin: 20px 10px;
+  padding: 15px 10px;
+  width: 200px;
+}
+
+.course h3 {
+  color: #fff;
+  font-size: 1.9rem;
+  font-weight: 200;
+  min-height: 80px;
+  ;
+}
+
+.course img {
+  border: none;
+  height: 150px;
+  margin-bottom: 20px;
+  max-width: 100%;
+  width: 150px;
+}
+
+.course a {
+  display: block;
+}
+
 
 /*
  * Affix and center
@@ -164,6 +203,7 @@ body {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
   }
 }
+
 
 @media (min-width: 62em) {
   .masthead,
