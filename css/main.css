@@ -2,6 +2,8 @@
  * Globals
  */
 
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
+
 /* Links */
 a,
 a:focus,
@@ -67,69 +69,13 @@ body {
  * Header
  */
 
-.menu-effect {
+.menu {
   font-family: 'Raleway', Arial, sans-serif;
   text-align: center;
   text-transform: uppercase;
   font-weight: 500;
 }
 
-
-/*@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
-.menu-effect {
-  font-family: 'Raleway', Arial, sans-serif;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: 500;
-}
-.menu-effect * {
-  box-sizing: border-box;
-  -webkit-transition: all 0.35s ease;
-  transition: all 0.35s ease;
-}
-.menu-effect li {
-  display: inline-block;
-  list-style: outside none none;
-  margin: 0 1.5em;
-  overflow: hidden;
-}
-.menu-effect a {
-  padding: 0.3em 0;
-  color: #fff;
-  position: relative;
-  display: inline-block;
-  letter-spacing: 1px;
-  margin: 0;
-  text-decoration: none;
-}
-.menu-effect a:before,
-.menu-effect a:after {
-  position: absolute;
-  -webkit-transition: all 0.35s ease;
-  transition: all 0.35s ease;
-}
-.menu-effect a:before {
-  bottom: 100%;
-  display: block;
-  height: 3px;
-  width: 100%;
-  content: "";
-  background-color: #953B4D;
-}
-.menu-effect a:after {
-  padding: 0.3em 0;
-  position: absolute;
-  bottom: 100%;
-  left: 0;
-  content: attr(data-hover);
-  color: white;
-  white-space: nowrap;
-}
-.menu-effect li:hover a,
-.menu-effect .current a {
-  transform: translateY(100%);
-}
-*/
 .masthead {
   margin-bottom: 2rem;
 }
