@@ -4,8 +4,6 @@
 
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
 
-
-
 /* Links */
 
 a,
@@ -13,7 +11,6 @@ a:focus,
 a:hover {
     color: #fff;
 }
-
 
 /* Custom default button */
 
@@ -26,8 +23,6 @@ a:hover {
     background-color: #fff;
     border: .05rem solid #fff;
 }
-
-
 
 /*
  * Base structure
@@ -135,10 +130,7 @@ body {
     }
 }
 
-
-
 /*badge frame*/
-
 
 /*
  * Cover
@@ -152,8 +144,6 @@ body {
     padding: .75rem 1.25rem;
     font-weight: bold;
 }
-
-
 
 /*
  * Footer
@@ -210,7 +200,26 @@ body {
     display: block;
 }
 
+/*Social Icon Style*/
 
+.list-inline{
+	padding:10px;
+}
+
+/*Icon color transition change*/
+.fa{
+	margin: 10px;
+}
+.fa:before,
+.fa:after {
+  -webkit-transition: all 0.45s ease-in-out;
+  transition: all 0.45s ease-in-out;
+}
+.fa:hover,
+.fa:active,
+.fa.hover {
+  color: #f39c12;
+}
 
 /*
  * Affix and center
