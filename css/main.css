@@ -7,13 +7,19 @@
 
 /* Links */
 
-a,
-a:focus,
-a:hover {
+nav a {
     color: #fff;
 }
 
+nav a:before,nav a:after {
+    -webkit-transition: all 0.45s ease-in-out;
+    transition: all 0.45s ease-in-out;
+}
 
+nav a:hover,
+nav a:active{
+    color: green;
+}
 /* Custom default button */
 
 .btn-secondary,
@@ -92,6 +98,7 @@ body {
     text-transform: uppercase;
     font-weight: 500;
 }
+
 
 
 .masthead {
