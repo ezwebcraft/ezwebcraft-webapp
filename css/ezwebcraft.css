@@ -13,6 +13,12 @@
 *   Base
 -----------------------------------------------*/
 
+body {
+    font-family: 'Open Sans', serif;
+    /*padding-top: 54 px;*/
+    color: #fff;
+}
+
 h1,
 h2,
 h3,
@@ -24,40 +30,61 @@ h6 {
     text-transform: uppercase;
 }
 
+
 /*-----------------------------------------------
 
-side nav
+Side Nav
 
 -----------------------------------------------*/
 
-
-.main-nav{
- list-style-type: none;
+.sidenav {
+    background-color: #6B949F;
+    min-height: 900px;
 }
+
+.main-nav {
+    list-style-type: none;
+}
+
+
 
 
 /*-----------------------------------------------
 
-main-section
+Main Section
 
 -----------------------------------------------*/
 
 .main-section {
-
     height: 900px;
     background: url(../images/BG-1.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+
+
+
 /*-----------------------------------------------
 
-footer-section
+Footer Section
 
 -----------------------------------------------*/
 
-.footer-section{
-	height: 100px;
-	background-color: #022A35;
+.footer-section {
+    height: 100px;
+    background-color: #022A35;
+}
 
+
+/*-----------------------------------------------
+
+Media Section 
+
+-----------------------------------------------*/
+
+@media (max-width: 458px) {
+    .sidenav {
+        min-height: 100 vh
+    }
 }
