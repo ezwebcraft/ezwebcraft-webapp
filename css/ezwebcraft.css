@@ -1,3 +1,17 @@
+/*************************************************
+*
+*  Stylesheet
+*
+*  Color-1: #6B949F;
+*  Color-2: #022A35;
+*
+*
+*************************************************/
+
+
+/*-----------------------------------------------
+*   Base
+-----------------------------------------------*/
 
 h1,
 h2,
@@ -10,9 +24,31 @@ h6 {
     text-transform: uppercase;
 }
 
-.main-section{
 
-	height: 900px;
 
-	background-image: url(../images/BG-1.png);
+
+/*-----------------------------------------------
+
+main-section
+
+-----------------------------------------------*/
+
+.main-section {
+
+    height: 900px;
+    background: url(../images/BG-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*-----------------------------------------------
+
+footer-section
+
+-----------------------------------------------*/
+
+.footer-section{
+	height: 100px;
+	background-color: #022A35;
+
 }
