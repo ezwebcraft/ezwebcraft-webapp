@@ -1,0 +1,18 @@
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Saira Extra Condensed', serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.main-section{
+
+	height: 900px;
+
+	background-image: url(../images/BG-1.png);
+}
