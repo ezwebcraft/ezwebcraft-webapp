@@ -1,0 +1,43 @@
+     .content {
+        width: 310px;
+        font-size: 22px;
+        line-height: 40px;
+        color: #ecf0f1;
+        margin: 1em auto 0;
+              font-family: Arial;
+    }
+    .static {
+        float: left;
+        overflow: hidden;
+        height: 40px;
+    }
+    .static p {
+/*        display: inline;*/
+        float: left;
+        margin: 0;
+        color: #ffff9e;
+    }
+    .static ul {
+        margin-top: 0;
+        padding-left: 90px;
+        text-align:  center;
+        list-style: none;
+        animation: 6s linear 0s normal none infinite change;
+    }
+    .static ul li {
+        color: #E7D84B;
+        line-height: 40px;
+        text-align:  center;
+        margin: 0;
+    }
+    @keyframes change {
+        0% { margin-top: 0; }
+        15% { margin-top: 0; }
+        25% { margin-top: -40px; }
+        40% { margin-top: -40px; }
+        50% { margin-top: -80px; }
+        65% { margin-top: -80px; }
+        75% { margin-top: -40px; }
+        85% { margin-top: -40px; }
+        100% { margin-top: 0; }
+    }
