@@ -1,9 +1,9 @@
-$(function() {
+$(function () {
 
     $.ajax({
         url: 'https://www.codeschool.com/users/Ramirez1900.json',
         dataType: 'jsonp',
-        success: function(data) {
+        success: function (data) {
             populateWithCourses(data.courses.completed)
         }
     });
@@ -12,7 +12,7 @@ $(function() {
 
         var $badges = $('#badges');
 
-        courses.forEach(function(course) {
+        courses.forEach(function (course) {
 
             $div = $('<div />', {
                 'class': 'course'
@@ -38,5 +38,3 @@ $(function() {
     }
 
 });
-
-

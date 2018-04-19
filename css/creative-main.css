@@ -1,150 +1,139 @@
-
 @import url(https://fonts.googleapis.com/css?family=Varela+Round);
 
 
 h1 {
-  color: hsla(0, 0%, 0%, .9);
-  font: normal 140px Varela Round, sans-serif;
-  height: 140px;
-  left: 0;
-  letter-spacing: 5px;
-  margin: -80px 0 0 0;
-  position: absolute;
-  text-align: center;
-  text-transform: uppercase;
-  top: 50%;
-  width: 100%;
-  animation: move linear 2000ms infinite;
+    color: hsla(0, 0%, 0%, .9);
+    font: normal 140px Varela Round, sans-serif;
+    height: 140px;
+    left: 0;
+    letter-spacing: 5px;
+    margin: -80px 0 0 0;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    top: 50%;
+    width: 100%;
+    animation: move linear 2000ms infinite;
 }
 
 @keyframes move {
-  0% {
-    text-shadow:
-      4px -4px 0 hsla(0, 100%, 50%, 1),
-      3px -3px 0 hsla(0, 100%, 50%, 1),
-      2px -2px 0 hsla(0, 100%, 50%, 1),
-      1px -1px 0 hsla(0, 100%, 50%, 1),
-      -4px 4px 0 hsla(180, 100%, 50%, 1),
-      -3px 3px 0 hsla(180, 100%, 50%, 1),
-      -2px 2px 0 hsla(180, 100%, 50%, 1),
-      -1px 1px 0 hsla(180, 100%, 50%, 1)
-    ;
-  }
-  25% {
-    text-shadow:
-      -4px -4px 0 hsla(180, 100%, 50%, 1),
-      -3px -3px 0 hsla(180, 100%, 50%, 1),
-      -2px -2px 0 hsla(180, 100%, 50%, 1),
-      -1px -1px 0 hsla(180, 100%, 50%, 1),
-      4px 4px 0 hsla(0, 100%, 50%, 1),
-      3px 3px 0 hsla(0, 100%, 50%, 1),
-      2px 2px 0 hsla(0, 100%, 50%, 1),
-      1px 1px 0 hsla(0, 100%, 50%, 1)
-    ;
-  }
-  50% {
-    text-shadow:
-      -4px 4px 0 hsla(0, 100%, 50%, 1),
-      -3px 3px 0 hsla(0, 100%, 50%, 1),
-      -2px 2px 0 hsla(0, 100%, 50%, 1),
-      -1px 1px 0 hsla(0, 100%, 50%, 1),
-      4px -4px 0 hsla(180, 100%, 50%, 1),
-      3px -3px 0 hsla(180, 100%, 50%, 1),
-      2px -2px 0 hsla(180, 100%, 50%, 1),
-      1px -1px 0 hsla(180, 100%, 50%, 1)
-    ;
-  }
-  75% {
-    text-shadow:
-      4px 4px 0 hsla(180, 100%, 50%, 1),
-      3px 3px 0 hsla(180, 100%, 50%, 1),
-      2px 2px 0 hsla(180, 100%, 50%, 1),
-      1px 1px 0 hsla(180, 100%, 50%, 1),
-      -4px -4px 0 hsla(0, 100%, 50%, 1),
-      -3px -3px 0 hsla(0, 100%, 50%, 1),
-      -2px -2px 0 hsla(0, 100%, 50%, 1),
-      -1px -1px 0 hsla(0, 100%, 50%, 1)
-    ;
-  }
-  100% {
-    text-shadow:
-      4px -4px 0 hsla(0, 100%, 50%, 1),
-      3px -3px 0 hsla(0, 100%, 50%, 1),
-      2px -2px 0 hsla(0, 100%, 50%, 1),
-      1px -1px 0 hsla(0, 100%, 50%, 1),
-      -4px 4px 0 hsla(180, 100%, 50%, 1),
-      -3px 3px 0 hsla(180, 100%, 50%, 1),
-      -2px 2px 0 hsl(152, 59%, 44%),
-      -1px 1px 0 hsla(180, 100%, 50%, 1)
-    ;
-  }
+    0% {
+        text-shadow: 4px -4px 0 hsla(0, 100%, 50%, 1),
+        3px -3px 0 hsla(0, 100%, 50%, 1),
+        2px -2px 0 hsla(0, 100%, 50%, 1),
+        1px -1px 0 hsla(0, 100%, 50%, 1),
+        -4px 4px 0 hsla(180, 100%, 50%, 1),
+        -3px 3px 0 hsla(180, 100%, 50%, 1),
+        -2px 2px 0 hsla(180, 100%, 50%, 1),
+        -1px 1px 0 hsla(180, 100%, 50%, 1);
+    }
+    25% {
+        text-shadow: -4px -4px 0 hsla(180, 100%, 50%, 1),
+        -3px -3px 0 hsla(180, 100%, 50%, 1),
+        -2px -2px 0 hsla(180, 100%, 50%, 1),
+        -1px -1px 0 hsla(180, 100%, 50%, 1),
+        4px 4px 0 hsla(0, 100%, 50%, 1),
+        3px 3px 0 hsla(0, 100%, 50%, 1),
+        2px 2px 0 hsla(0, 100%, 50%, 1),
+        1px 1px 0 hsla(0, 100%, 50%, 1);
+    }
+    50% {
+        text-shadow: -4px 4px 0 hsla(0, 100%, 50%, 1),
+        -3px 3px 0 hsla(0, 100%, 50%, 1),
+        -2px 2px 0 hsla(0, 100%, 50%, 1),
+        -1px 1px 0 hsla(0, 100%, 50%, 1),
+        4px -4px 0 hsla(180, 100%, 50%, 1),
+        3px -3px 0 hsla(180, 100%, 50%, 1),
+        2px -2px 0 hsla(180, 100%, 50%, 1),
+        1px -1px 0 hsla(180, 100%, 50%, 1);
+    }
+    75% {
+        text-shadow: 4px 4px 0 hsla(180, 100%, 50%, 1),
+        3px 3px 0 hsla(180, 100%, 50%, 1),
+        2px 2px 0 hsla(180, 100%, 50%, 1),
+        1px 1px 0 hsla(180, 100%, 50%, 1),
+        -4px -4px 0 hsla(0, 100%, 50%, 1),
+        -3px -3px 0 hsla(0, 100%, 50%, 1),
+        -2px -2px 0 hsla(0, 100%, 50%, 1),
+        -1px -1px 0 hsla(0, 100%, 50%, 1);
+    }
+    100% {
+        text-shadow: 4px -4px 0 hsla(0, 100%, 50%, 1),
+        3px -3px 0 hsla(0, 100%, 50%, 1),
+        2px -2px 0 hsla(0, 100%, 50%, 1),
+        1px -1px 0 hsla(0, 100%, 50%, 1),
+        -4px 4px 0 hsla(180, 100%, 50%, 1),
+        -3px 3px 0 hsla(180, 100%, 50%, 1),
+        -2px 2px 0 hsla(180, 100%, 50%, 1),
+        -1px 1px 0 hsla(180, 100%, 50%, 1);
+    }
 }
 
 
 
- .content {
-     width: 310px;
-     font-size: 22px;
-     line-height: 40px;
-     color: #ecf0f1;
-     margin: 1em auto 0;
-     font-family: Arial;
- }
+.content {
+    width: 310px;
+    font-size: 22px;
+    line-height: 40px;
+    color: #ecf0f1;
+    margin: 1em auto 0;
+    font-family: Arial;
+}
 
- .static {
-     float: left;
-     overflow: hidden;
-     height: 40px;
- }
+.static {
+    float: left;
+    overflow: hidden;
+    height: 40px;
+}
 
- .static p {
-     /*        display: inline;*/
-     float: left;
-     margin: 0;
-     color: #ffff9e;
- }
+.static p {
+    /*        display: inline;*/
+    float: left;
+    margin: 0;
+    color: #ffff9e;
+}
 
- .static ul {
-     margin-top: 0;
-     padding-left: 90px;
-     text-align: center;
-     list-style: none;
-     animation: 6s linear 0s normal none infinite change;
- }
+.static ul {
+    margin-top: 0;
+    padding-left: 90px;
+    text-align: center;
+    list-style: none;
+    animation: 6s linear 0s normal none infinite change;
+}
 
- .static ul li {
-     color: #E7D84B;
-     line-height: 40px;
-     text-align: center;
-     margin: 0;
- }
+.static ul li {
+    color: #E7D84B;
+    line-height: 40px;
+    text-align: center;
+    margin: 0;
+}
 
- @keyframes change {
-     0% {
-         margin-top: 0;
-     }
-     15% {
-         margin-top: 0;
-     }
-     25% {
-         margin-top: -40px;
-     }
-     40% {
-         margin-top: -40px;
-     }
-     50% {
-         margin-top: -80px;
-     }
-     65% {
-         margin-top: -80px;
-     }
-     75% {
-         margin-top: -40px;
-     }
-     85% {
-         margin-top: -40px;
-     }
-     100% {
-         margin-top: 0;
-     }
- }
+@keyframes change {
+    0% {
+        margin-top: 0;
+    }
+    15% {
+        margin-top: 0;
+    }
+    25% {
+        margin-top: -40px;
+    }
+    40% {
+        margin-top: -40px;
+    }
+    50% {
+        margin-top: -80px;
+    }
+    65% {
+        margin-top: -80px;
+    }
+    75% {
+        margin-top: -40px;
+    }
+    85% {
+        margin-top: -40px;
+    }
+    100% {
+        margin-top: 0;
+    }
+}
