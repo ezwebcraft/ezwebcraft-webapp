@@ -1,86 +1,118 @@
  @import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
 
-svg {
-        display: block;
-        font: 3em 'Oswald';
-        width: 480px;
-        height: 150px;
-        margin: 0 auto;
-    }
-    .text-effect {
-        fill: none;
-        stroke: white;
-        stroke-dasharray: 6% 29%;
-        stroke-width: 5px;
-        stroke-dashoffset: 0%;
-        animation: stroke-offset 5s infinite linear;
-    }
-    .text-effect:nth-child(1) {
-        stroke: #888080;
-        animation-delay: -1s;
-    }
-    .text-effect:nth-child(2) {
-        stroke: #47b468;
-        animation-delay: -2s;
-    }
-    .text-effect:nth-child(3) {
-        stroke: #4bb7e7;
-        animation-delay: -3s;
-    }
-    .text-effect:nth-child(4) {
-        stroke: #dd4242;
-        animation-delay: -4s;
-    }
-    .text-effect:nth-child(5) {
-        stroke: #78d825;
-        animation-delay: -5s;
-    }
-    @keyframes stroke-offset {
-        100% { stroke-dashoffset: -35%;}
-    }
+ svg {
+     display: block;
+     font: 3em 'Oswald';
+     width: 480px;
+     height: 150px;
+     margin: 0 auto;
+ }
+
+ .text-effect {
+     fill: none;
+     stroke: white;
+     stroke-dasharray: 6% 29%;
+     stroke-width: 5px;
+     stroke-dashoffset: 0%;
+     animation: stroke-offset 5s infinite linear;
+ }
+
+ .text-effect:nth-child(1) {
+     stroke: #888080;
+     animation-delay: -1s;
+ }
+
+ .text-effect:nth-child(2) {
+     stroke: #47b468;
+     animation-delay: -2s;
+ }
+
+ .text-effect:nth-child(3) {
+     stroke: #4bb7e7;
+     animation-delay: -3s;
+ }
+
+ .text-effect:nth-child(4) {
+     stroke: #dd4242;
+     animation-delay: -4s;
+ }
+
+ .text-effect:nth-child(5) {
+     stroke: #78d825;
+     animation-delay: -5s;
+ }
+
+ @keyframes stroke-offset {
+     100% {
+         stroke-dashoffset: -35%;
+     }
+ }
 
 
 
-.content {
-        width: 310px;
-        font-size: 22px;
-        line-height: 40px;
-        color: #ecf0f1;
-        margin: 1em auto 0;
-        font-family: Arial;
-    }
-    .static {
-        float: left;
-        overflow: hidden;
-        height: 40px;
-    }
-    .static p {
-/*        display: inline;*/
-        float: left;
-        margin: 0;
-        color: #ffff9e;
-    }
-    .static ul {
-        margin-top: 0;
-        padding-left: 90px;
-        text-align:  center;
-        list-style: none;
-        animation: 6s linear 0s normal none infinite change;
-    }
-    .static ul li {
-        color: #E7D84B;
-        line-height: 40px;
-        text-align:  center;
-        margin: 0;
-    }
-    @keyframes change {
-        0% { margin-top: 0; }
-        15% { margin-top: 0; }
-        25% { margin-top: -40px; }
-        40% { margin-top: -40px; }
-        50% { margin-top: -80px; }
-        65% { margin-top: -80px; }
-        75% { margin-top: -40px; }
-        85% { margin-top: -40px; }
-        100% { margin-top: 0; }
-    }
+ .content {
+     width: 310px;
+     font-size: 22px;
+     line-height: 40px;
+     color: #ecf0f1;
+     margin: 1em auto 0;
+     font-family: Arial;
+ }
+
+ .static {
+     float: left;
+     overflow: hidden;
+     height: 40px;
+ }
+
+ .static p {
+     /*        display: inline;*/
+     float: left;
+     margin: 0;
+     color: #ffff9e;
+ }
+
+ .static ul {
+     margin-top: 0;
+     padding-left: 90px;
+     text-align: center;
+     list-style: none;
+     animation: 6s linear 0s normal none infinite change;
+ }
+
+ .static ul li {
+     color: #E7D84B;
+     line-height: 40px;
+     text-align: center;
+     margin: 0;
+ }
+
+ @keyframes change {
+     0% {
+         margin-top: 0;
+     }
+     15% {
+         margin-top: 0;
+     }
+     25% {
+         margin-top: -40px;
+     }
+     40% {
+         margin-top: -40px;
+     }
+     50% {
+         margin-top: -80px;
+     }
+     65% {
+         margin-top: -80px;
+     }
+     75% {
+         margin-top: -40px;
+     }
+     85% {
+         margin-top: -40px;
+     }
+     100% {
+         margin-top: 0;
+     }
+ }
