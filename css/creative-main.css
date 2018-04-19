@@ -1,52 +1,84 @@
- @import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
 
- svg {
-     display: block;
-     font: 3em 'Oswald';
-     width: 480px;
-     height: 150px;
-     margin: 0 auto;
- }
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
 
- .text-effect {
-     fill: none;
-     stroke: white;
-     stroke-dasharray: 6% 29%;
-     stroke-width: 5px;
-     stroke-dashoffset: 0%;
-     animation: stroke-offset 5s infinite linear;
- }
 
- .text-effect:nth-child(1) {
-     stroke: #888080;
-     animation-delay: -1s;
- }
+h1 {
+  color: hsla(0, 0%, 0%, .9);
+  font: normal 140px Varela Round, sans-serif;
+  height: 140px;
+  left: 0;
+  letter-spacing: 5px;
+  margin: -80px 0 0 0;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  top: 50%;
+  width: 100%;
+  animation: move linear 2000ms infinite;
+}
 
- .text-effect:nth-child(2) {
-     stroke: #47b468;
-     animation-delay: -2s;
- }
-
- .text-effect:nth-child(3) {
-     stroke: #4bb7e7;
-     animation-delay: -3s;
- }
-
- .text-effect:nth-child(4) {
-     stroke: #dd4242;
-     animation-delay: -4s;
- }
-
- .text-effect:nth-child(5) {
-     stroke: #78d825;
-     animation-delay: -5s;
- }
-
- @keyframes stroke-offset {
-     100% {
-         stroke-dashoffset: -35%;
-     }
- }
+@keyframes move {
+  0% {
+    text-shadow:
+      4px -4px 0 hsla(0, 100%, 50%, 1),
+      3px -3px 0 hsla(0, 100%, 50%, 1),
+      2px -2px 0 hsla(0, 100%, 50%, 1),
+      1px -1px 0 hsla(0, 100%, 50%, 1),
+      -4px 4px 0 hsla(180, 100%, 50%, 1),
+      -3px 3px 0 hsla(180, 100%, 50%, 1),
+      -2px 2px 0 hsla(180, 100%, 50%, 1),
+      -1px 1px 0 hsla(180, 100%, 50%, 1)
+    ;
+  }
+  25% {
+    text-shadow:
+      -4px -4px 0 hsla(180, 100%, 50%, 1),
+      -3px -3px 0 hsla(180, 100%, 50%, 1),
+      -2px -2px 0 hsla(180, 100%, 50%, 1),
+      -1px -1px 0 hsla(180, 100%, 50%, 1),
+      4px 4px 0 hsla(0, 100%, 50%, 1),
+      3px 3px 0 hsla(0, 100%, 50%, 1),
+      2px 2px 0 hsla(0, 100%, 50%, 1),
+      1px 1px 0 hsla(0, 100%, 50%, 1)
+    ;
+  }
+  50% {
+    text-shadow:
+      -4px 4px 0 hsla(0, 100%, 50%, 1),
+      -3px 3px 0 hsla(0, 100%, 50%, 1),
+      -2px 2px 0 hsla(0, 100%, 50%, 1),
+      -1px 1px 0 hsla(0, 100%, 50%, 1),
+      4px -4px 0 hsla(180, 100%, 50%, 1),
+      3px -3px 0 hsla(180, 100%, 50%, 1),
+      2px -2px 0 hsla(180, 100%, 50%, 1),
+      1px -1px 0 hsla(180, 100%, 50%, 1)
+    ;
+  }
+  75% {
+    text-shadow:
+      4px 4px 0 hsla(180, 100%, 50%, 1),
+      3px 3px 0 hsla(180, 100%, 50%, 1),
+      2px 2px 0 hsla(180, 100%, 50%, 1),
+      1px 1px 0 hsla(180, 100%, 50%, 1),
+      -4px -4px 0 hsla(0, 100%, 50%, 1),
+      -3px -3px 0 hsla(0, 100%, 50%, 1),
+      -2px -2px 0 hsla(0, 100%, 50%, 1),
+      -1px -1px 0 hsla(0, 100%, 50%, 1)
+    ;
+  }
+  100% {
+    text-shadow:
+      4px -4px 0 hsla(0, 100%, 50%, 1),
+      3px -3px 0 hsla(0, 100%, 50%, 1),
+      2px -2px 0 hsla(0, 100%, 50%, 1),
+      1px -1px 0 hsla(0, 100%, 50%, 1),
+      -4px 4px 0 hsla(180, 100%, 50%, 1),
+      -3px 3px 0 hsla(180, 100%, 50%, 1),
+      -2px 2px 0 hsl(152, 59%, 44%),
+      -1px 1px 0 hsla(180, 100%, 50%, 1)
+    ;
+  }
+}
 
 
 
