@@ -1,3 +1,5 @@
+
+
 body {
     padding-top: 5rem;
 }
@@ -12,6 +14,29 @@ body {
     border-radius: 50%;
     width: 30%;
 }
+
+header {
+    height: 25rem;
+/*    background-image: url(../img/apple-black-and-white-black-and-white-169573.jpg);
+*/  background-image: url(../img/business-code-coding-943096.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    color: white;
+}
+
+.intro-text{
+    padding: 10%;
+}
+
+
+.intro-lead-in,
+.intro-heading {
+    color: green;
+    padding:5px;
+/*    font-family: 'Abril Fatface', cursive;
+*/}
 
 .about {
 
@@ -35,20 +60,7 @@ body {
 
 }
 
-header {
-    height: auto;
-    background-image: url(../img/apple-black-and-white-black-and-white-169573.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-    color: white;
-}
 
-.intro-lead-in,
-.intro-heading {
-    color: red;
-}
 
 /*.container .about {vertical-align: middle;}*/
 /*
