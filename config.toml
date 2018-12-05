@@ -35,5 +35,5 @@ theme = "hello-friend"
     url = "/about/about"
   [[menu.main]]
     identifier = "post"
-    name = "Post"
-    url = "/posts/"
+    name = "Archives"
+    url = "/Archives"
