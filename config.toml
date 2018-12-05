@@ -32,8 +32,8 @@ theme = "hello-friend"
   [[menu.main]]
     identifier = "about"
     name = "About"
-    url = "/about"
+    url = "/about/about"
   [[menu.main]]
-    identifier = "contact"
-    name = "Contact"
-    url = "/contact"
+    identifier = "post"
+    name = "Post"
+    url = "/posts/"
