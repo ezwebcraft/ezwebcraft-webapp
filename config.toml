@@ -1,6 +1,6 @@
-baseURL = "http://ezwebcraft.com/"
+baseURL = "http://linuxbytes.github.io"
 languageCode = "en-us"
-title = "EZ-WebCraft"
+title = "linuxbytes"
 theme = "hello-friend"
 
 
@@ -8,7 +8,7 @@ theme = "hello-friend"
   subtitle = "I am a Linux engineer by day and a Developer by night"
 
 [params.logo]
-  logoText = "EZ WebCraft"
+  logoText = "Linux Bytes"
 #   or
 #
 #   path = "/img/your-example-logo.svg"
@@ -32,7 +32,7 @@ theme = "hello-friend"
   [[menu.main]]
     identifier = "about"
     name = "About"
-    url = "/about/about"
+    url = "/about"
   [[menu.main]]
     identifier = "post"
     name = "Archives"
