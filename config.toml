@@ -1,4 +1,4 @@
-baseURL = "http://linuxbytes.github.io"
+baseURL = "https://linuxbytes.github.io"
 languageCode = "en-us"
 title = "linuxbytes"
 theme = "hello-friend"
@@ -22,7 +22,7 @@ theme = "hello-friend"
 #  linkedin = "https://www.linkedin.com/in/ramirez2017"
 #  recent_posts_number = 5
 #  subtitle = "I am a Linux engineer by day and a Developer by night"
-#  logoText = "EZ WebCraft"
+#  logoText = "Linux Bytes"
 #   or
 #
 #   path = "/img/your-example-logo.svg"
