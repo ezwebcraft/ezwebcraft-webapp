@@ -5,7 +5,7 @@ theme = "hello-friend"
 
 
 [params]
-  subtitle = "I am a Linux engineer by day and a Developer by night"
+  subtitle = "I am a Linux engineer by day and a Coder by night"
 
 [params.logo]
   logoText = "Linux Bytes"
@@ -18,7 +18,7 @@ theme = "hello-friend"
 # favicon = ""
 #  description = "I am a Linux engineer by day and a Developer by night"
 #  twitter = "https://twitter.com/PatchCat13?lang=en"
-#  github = "https://github.com/ezwebcraft"
+#  github = "https://github.com/linuxbytes"
 #  linkedin = "https://www.linkedin.com/in/ramirez2017"
 #  recent_posts_number = 5
 #  subtitle = "I am a Linux engineer by day and a Developer by night"
