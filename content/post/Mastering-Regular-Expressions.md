@@ -1,6 +1,7 @@
 ---
 title: "Mastering Regular Expressions"
 date: 2018-12-29T11:25:28-05:00
+author: Linux Bytes
 tag:
   - regex
   - linux
@@ -16,9 +17,9 @@ Regex is serving a fundamental tool for the filter, searches analyze and summari
 
 It was a common use with Unix, Linux and Unix-like text-processing utilities such as POSIX tools, sed, awk, Perl and many others. Here is a diagram of the Translating from Thompson Kleene show as regex processor translates a regular expression
 
+---------------------------------------
 
-
-![Alt Thompson kleene star](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Thompson-kleene-star.svg/500px-Thompson-kleene-star.svg.png)
+![Alt Thompson kleene star](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Thompson-kleene-star.svg/1000px-Thompson-kleene-star.svg.png)
 
 `(s* means 'zero or more of s ')`
 
