@@ -1,14 +1,14 @@
-baseURL = "http://ezwebcraft.com/"
+baseURL = "https://linuxbytes.github.io"
 languageCode = "en-us"
-title = "EZ-WebCraft"
+title = "linuxbytes"
 theme = "hello-friend"
 
 
 [params]
-  subtitle = "I am a Linux engineer by day and a Developer by night"
+  subtitle = "I am a Linux engineer by day and a Coder by night"
 
 [params.logo]
-  logoText = "EZ WebCraft"
+  logoText = "Linux Bytes"
 #   or
 #
 #   path = "/img/your-example-logo.svg"
@@ -18,11 +18,11 @@ theme = "hello-friend"
 # favicon = ""
 #  description = "I am a Linux engineer by day and a Developer by night"
 #  twitter = "https://twitter.com/PatchCat13?lang=en"
-#  github = "https://github.com/ezwebcraft"
+#  github = "https://github.com/linuxbytes"
 #  linkedin = "https://www.linkedin.com/in/ramirez2017"
 #  recent_posts_number = 5
 #  subtitle = "I am a Linux engineer by day and a Developer by night"
-#  logoText = "EZ WebCraft"
+#  logoText = "Linux Bytes"
 #   or
 #
 #   path = "/img/your-example-logo.svg"
@@ -32,7 +32,7 @@ theme = "hello-friend"
   [[menu.main]]
     identifier = "about"
     name = "About"
-    url = "/about/about"
+    url = "/about"
   [[menu.main]]
     identifier = "post"
     name = "Archives"
