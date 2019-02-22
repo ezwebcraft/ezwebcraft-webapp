@@ -36,4 +36,4 @@ theme = "hello-friend"
   [[menu.main]]
     identifier = "Archives"
     name = "Archives"
-    url = "archives"
+    url = "archives/"
