@@ -1,7 +1,7 @@
 ---
 title: "Jumpstart Python"
 date: 2019-02-21
-draft: true
+
 ---
 
 
