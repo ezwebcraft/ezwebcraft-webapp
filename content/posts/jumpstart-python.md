@@ -7,7 +7,7 @@ draft: true
 
 ### Python Jumpstart by Building 10 Apps
 
-"The Python Jumpstart by Building 10 Apps Course" is a great path to get started on learning python and some of the core features. Micheal Kenndy explains each topic in details and with good examples. Python is growing, and the demand for the skill set is high peak right now. Python Jumpstart will help anyone to get started on the language. I enjoy doing these small projects. For experienced programmers or someone who already know Ruby, Java, or JavaScript, learning Python Jumpstart will help anyone get started fast with this powerful language.
+"The Python Jumpstart by Building 10 Apps Course" is a great path to get started on learning python and some of the core features. Micheal Kenndy explains each topic in details and with good examples. Python is growing, and the demand for the skill set is high peak right now. Python Jumpstart will help anyone to get started on the language. I enjoy doing these small projects. For experienced programmers or someone who already know Ruby, Java, or JavaScript, learning Python Jumpstart will help anyone get started fast with this powerful language. The few things I enjoyed during my journey with JumpStart is the wide array of coverage that the course provides. For example "Birthday app" cover a significant aspect of programming like dates and times. Also the Wizard battle project cover classes, inheritance, and python magic methods.
 
 
 ### focus on the language concepts listed under them with thier source
