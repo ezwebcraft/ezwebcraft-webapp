@@ -1,0 +1,39 @@
+baseURL = "https://linuxbytes.github.io"
+languageCode = "en-us"
+title = "linuxbytes"
+theme = "hello-friend"
+
+
+[params]
+  subtitle = "I am a Linux engineer by day and a Coder by night"
+
+[params.logo]
+  logoText = "Linux Bytes"
+#   or
+#
+#   path = "/img/your-example-logo.svg"
+#   alt = "Your example logo alt text"
+
+#[params]
+# favicon = ""
+#  description = "I am a Linux engineer by day and a Developer by night"
+#  twitter = "https://twitter.com/PatchCat13?lang=en"
+#  github = "https://github.com/linuxbytes"
+#  linkedin = "https://www.linkedin.com/in/ramirez2017"
+#  recent_posts_number = 5
+#  subtitle = "I am a Linux engineer by day and a Developer by night"
+#  logoText = "Linux Bytes"
+#   or
+#
+#   path = "/img/your-example-logo.svg"
+#   alt = "Your example logo alt text"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about"
+  [[menu.main]]
+    identifier = "Archives"
+    name = "Archives"
+    url = "archives/"
