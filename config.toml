@@ -2,7 +2,7 @@ baseURL = "https://nixbytes.github.io"
 languageCode = "en-us"
 title = "nixbytes"
 theme = "hello-friend"
-
+paginate = 5
 
 [params]
   subtitle = "I am a Linux engineer by day and a Coder by night"
