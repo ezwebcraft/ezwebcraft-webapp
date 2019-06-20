@@ -1,7 +1,7 @@
 ---
 title: "Mastering Regular Expressions"
 date: 2018-12-29T11:25:28-05:00
-author: Linux Bytes
+author: Linux-Bytes
 tag:
   - regex
   - linux

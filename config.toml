@@ -1,6 +1,6 @@
-baseURL = "https://linuxbytes.github.io"
+baseURL = "https://nixbytes.github.io"
 languageCode = "en-us"
-title = "linuxbytes"
+title = "nixbytes"
 theme = "hello-friend"
 
 
@@ -8,7 +8,7 @@ theme = "hello-friend"
   subtitle = "I am a Linux engineer by day and a Coder by night"
 
 [params.logo]
-  logoText = "Linux Bytes"
+  logoText = "Nix Bytes"
 [menu]
   [[menu.main]]
     identifier = "about"

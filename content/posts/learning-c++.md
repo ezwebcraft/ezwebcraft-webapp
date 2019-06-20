@@ -1,7 +1,7 @@
 ---
 title: "Learning C++"
 date: 2019-06-10
-author: Linux Bytes
+author: Linux-Bytes
 tag:
   - coding
   - linux
