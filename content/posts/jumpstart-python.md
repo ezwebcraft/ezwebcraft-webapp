@@ -1,8 +1,8 @@
 ---
 title: "Jumpstart Python"
 date: 2019-02-21
-author: Linux-Byte
-tags:
+author: Linux-Bytes
+tag:
     - Python
     - Training
     - Learning
