@@ -1,7 +1,6 @@
 ---
 title: "Graphical Tree File Folder"
 date: 2018-12-26
-featuredImg: ""
 author: Linux-Bytes
 tags: 
   - grep

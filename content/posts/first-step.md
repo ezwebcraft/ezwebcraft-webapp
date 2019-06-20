@@ -1,7 +1,6 @@
 ---
 title: "First Steps"
 date: 2018-11-26
-featuredImg: ""
 author: Linux-Bytes
 tags: 
   - first

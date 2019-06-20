@@ -3,4 +3,4 @@
 	url = https://github.com/panr/hugo-theme-hello-friend.git
 [submodule "public"]
 	path = public
-	url = https://github.com/linuxbytes/linuxbytes.github.io.git
+	url = https://github.com/linuxbytes/nixbytes.github.io.git

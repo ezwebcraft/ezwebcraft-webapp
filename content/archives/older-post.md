@@ -1,6 +1,7 @@
 ---
 title: "Older Post for testing new website"
-date: 2018-12-04T22:17:34-05:00
+date: 2018-12-04
+author: Linux-Bytes
 
 ---
 

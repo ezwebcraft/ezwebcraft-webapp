@@ -1,7 +1,6 @@
 ---
 title: "Linux Shell on IPad or IPhone"
 date: 2018-12-30
-featuredImg: "https://ish.app/assets/front-iphone.png"
 author: Linux-Bytes
 tag:
   - shell

@@ -1,7 +1,6 @@
 ---
 title: "Cat Command"
 date: 2018-12-16
-featuredImg: ""
 author: Linux-Bytes
 tags: 
   - cat

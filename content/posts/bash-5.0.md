@@ -1,7 +1,6 @@
 ---
 title: "Bash 5.0 Release"
 date: 2019-01-22
-featuredImg: "https://linux.pictures/content/1-projects/82-bash-highway-to-shell-jpg/bash-highway-to-shell.jpg"
 author: Linux-Bytes
 tags:
     - bash

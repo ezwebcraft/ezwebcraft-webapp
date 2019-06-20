@@ -1,10 +1,7 @@
 ---
 title: "Process Substitution"
 date: 2019-04-24
-draft: true
-toc: false
 author: Linux-Bytes
-images:
 tags: 
   - process
   - substitution
