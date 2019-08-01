@@ -19,4 +19,4 @@ Starter code for System Monitor Project in the C++ OOP course. In which I used f
 
 #### Github link
 
-[CppND-System-Monitor](https://github.com/linuxbytes/CppND-System-Monitor/blob/master/ProcessParser.h)
+[CppND-System-Monitor](https://github.com/linuxbytes/CppND-System-Monitor)
