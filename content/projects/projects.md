@@ -1,23 +1,16 @@
 ---
 title: "List of Projects"
-date: 2019-7-07
+date: today
 author: Linux-Bytes
 tags:
-    - CPP
-    - C++
-    - OOP
+    - Projects
     - Programming
-    - System
-
+    - Linux
 ---
 # Projects
 
-This is list of of my projects, language and technology that I have work with.
+This is list of of my projects, language and technology that I have work with. In each page the projects with a summary and github links. 
 
-### CppND-System-Monitor
+#### Page Links
 
-Starter code for System Monitor Project in the C++ OOP course. In which I used for Udacity course on OOP.
-
-#### Github link
-
-[CppND-System-Monitor](https://github.com/linuxbytes/CppND-System-Monitor/blob/master/ProcessParser.h)
+- [Cpp System Monitor](https://linuxbytes.github.io/projects/cppnd-system-monitor/)
