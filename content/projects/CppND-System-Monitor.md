@@ -11,8 +11,6 @@ tags:
 
 ---
 
-This is list of of my projects, language and technology that I have work with.
-
 ### CppND-System-Monitor
 
 Starter code for System Monitor Project in the C++ OOP course. In which I used for Udacity course on OOP.
