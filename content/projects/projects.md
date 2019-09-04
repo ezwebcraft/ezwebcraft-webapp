@@ -14,6 +14,6 @@ This is list of of my projects, language and technology that I have work with. I
 #### Page Links
 
 - [Cpp System Monitor](https://linuxbytes.github.io/projects/cppnd-system-monitor/)
-- [CppND Route Planning](https://linuxbytes.github.io/projects/CppND-Route-Planning-Project)
-- [jQuery Badges ](https://linuxbytes.github.io/projects/jQueryBadgesProject/)
+- [CppND Route Planning](https://linuxbytes.github.io/projects/cppnd-route-planning-project)
+- [jQuery Badges ](https://linuxbytes.github.io/projects/jquerybadgesproject/)
 
