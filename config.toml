@@ -16,7 +16,7 @@ paginate = 5
 
 [languages]
   [languages.en]
-    title = "Linux Bytes"
+    title = "NixBytes"
     subtitle = "Linux Admin by day and a Coder by night"
     keywords = ""
     copyright = ""
@@ -31,7 +31,7 @@ paginate = 5
     dateFormatList = "2006-01-02"
 
     [languages.en.params.logo]
-      logoText = "Linux Bytes"
+      logoText = "NixBytes"
       logoHomeLink = "/"
     # or
     #
