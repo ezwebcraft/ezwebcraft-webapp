@@ -2,7 +2,6 @@
 title: "Docker Update Images"
 date: 2019-11-27
 author: Linux-Bytes
-draft: true
 tags:
     - docker
     - command line

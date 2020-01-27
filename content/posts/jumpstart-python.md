@@ -6,6 +6,7 @@ tag:
     - Python
     - Training
     - Learning
+    - Projects
 ---
 
 

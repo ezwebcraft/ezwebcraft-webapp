@@ -2,7 +2,7 @@
 title: "Mastering Regular Expressions"
 date: 2018-12-29
 author: Linux-Bytes
-tag:
+tags:
   - regex
   - linux
   - big data

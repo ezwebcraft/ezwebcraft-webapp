@@ -2,7 +2,7 @@
 title: "Linux Shell on IPad or IPhone"
 date: 2018-12-30
 author: Linux-Bytes
-tag:
+tags:
   - shell
   - ios
   - github

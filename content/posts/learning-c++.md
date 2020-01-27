@@ -2,7 +2,7 @@
 title: "Learning C++"
 date: 2019-06-10
 author: Linux-Bytes
-tag:
+tags:
   - coding
   - linux
   - low level
